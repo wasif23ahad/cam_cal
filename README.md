@@ -1,6 +1,6 @@
 # Adaptive Camera Calibration — Setup & Run Guide
 
-CSE 499A | Group 7 | NSU
+
 
 ---
 
@@ -27,12 +27,12 @@ uv sync
 ## Step 1 — Collect Your Checkerboard Photos
 
 1. Print the checkerboard pattern and tape it flat on a book
-2. Take **20–30 photos** with your laptop webcam
+2. Take **20–30 photos** with your laptop webcam as I said ealier. Best to took pictures from the  folder named checkerboard_images. Use either printed checker board or Tab. You can find a picture named "pattern.png" either use it via your tab or download any checkerboard pattern.
    - Different angles (left, right, top, bottom tilts)
    - Different distances (close, medium, far)
    - Different positions in frame (corners, center)
-   - Every photo must be sharp — no blur
-3. Put all photos inside the `checkerboard_images/` folder
+   - Every photo must be sharp — no blur 
+3. Put all photos inside the `checkerboard_images/` folder. Best approach to keep the previus images that I have provided as backup in diffferent folders.
 
 ---
 
@@ -41,12 +41,12 @@ uv sync
 ```bash
 uv run calibrate.py
 ```
-
+Note that, you should put the images path correctly.
 You should see output like:
 ```
 Found corners in 24/27 images
 Calibration complete.
-Reprojection error: 0.34
+Reprojection error: 0.34 /// in our case iut was somewhere around 0.05ish
 Camera parameters saved to camera_params.npz
 ```
 
