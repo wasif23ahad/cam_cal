@@ -1,6 +1,30 @@
 # Adaptive Camera Calibration — Setup & Run Guide
 
+---
 
+## Getting Started
+
+Clone the repository and set up the project with these terminal commands:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/wasif23ahad/cam_cal.git
+
+# 2. Navigate into the project folder
+cd cam_cal
+
+# 3. Install uv (Python package manager) if you don't have it
+pip install uv
+
+# 4. Install project dependencies
+uv sync
+
+# 5. Run calibration (processes checkerboard images)
+uv run calibrate.py
+
+# 6. Run the live adaptive demo (opens webcam)
+uv run adaptive_calibration.py
+```
 
 ---
 
