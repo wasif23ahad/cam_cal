@@ -1,0 +1,10 @@
+[project]
+name = "adaptive-camera-calibration"
+version = "0.1.0"
+description = "Adaptive Camera Calibration for Mobile Robots — CSE 499A, NSU Group 7"
+requires-python = ">=3.11"
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "matplotlib",
+]
