@@ -51,7 +51,7 @@ uv sync
 ## Step 1 — Collect Your Checkerboard Photos
 
 1. Print the checkerboard pattern and tape it flat on a book
-2. Take **20–30 photos** with your laptop webcam as I said ealier. Best to took pictures from the  folder named checkerboard_images. Use either printed checker board or Tab. You can find a picture named "pattern.png" either use it via your tab or download any checkerboard pattern.
+2. Take **20–30 photos** with your laptop webcam as I said ealier. Best to took pictures from the  folder named checkerboard_images as reference of your images that you'll be taking from you webcam. Use either printed checker board or Tab. You can find a picture named "pattern.png" either use it via your tab or download any checkerboard pattern.
    - Different angles (left, right, top, bottom tilts)
    - Different distances (close, medium, far)
    - Different positions in frame (corners, center)
